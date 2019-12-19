@@ -6,7 +6,7 @@
 
 section {
     height:100vh;
-    background-color: rgb(39, 41, 68);
+    background-color: rgb(153,221,255);
     font-family: sans-serif;
 }
 
@@ -41,10 +41,9 @@ section {
     font-size: 60px;
 }
 
-.introbutton, .matchbutton {
+.intro button, .match button {
     width: 150px;
     height: 50px;
-    background: none;
     border: none;
     color: rgb(224, 224, 224,);
     font-size: 20px;
@@ -75,4 +74,19 @@ section {
 
 .computerHand {
     transform: rotateY(180deg);
+}
+
+.playerHand, .computerHand {
+    width:500px;
+    height: auto;
+}
+
+div.fadeOut {
+    opacity:0;
+    pointer-events:none;
+}
+
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
 }
